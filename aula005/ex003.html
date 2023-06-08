@@ -16,10 +16,15 @@
     <h1>Olá Mundo !</h1>
     <p>Já me livre da maldição</p>
     <script>
-        var n1 = Number(window.prompt('Digite uma letra: '))
+        var n1 = Number(window.prompt('Digite um numero: '))
         var n2 = Number(window.prompt('Digite outro numero' ))
         var s = n1 + n2 
-        window.alert('A soma dos valores é: ' + String(s))
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
+
+        'Eu estou aprendendo S' //não faz interpolação
+        'Eu estou aprendendo' + s //usa concatenação
+        `Eu estou aprendendo ${s}` //usa template string
+
 
     </script>
 </body>
